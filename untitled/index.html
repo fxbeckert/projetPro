@@ -1,0 +1,240 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>François-Xavier BECKERT</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/turn.min.js"></script>
+  <style>
+    body{
+      overflow:hidden;
+      display: flex;
+      justify-content: center;
+      background-image: url("img/bois.jpg");
+      background-size: contain;
+
+    }
+    #flipbook .page{
+      background: white;
+    }
+/*    #flipbook .shadow, #flipbook.shadow{
+      -webkit-box-shadow: 0 4px 10px #666;
+      -moz-box-shadow: 0 4px 10px #666;
+      -ms-box-shadow: 0 4px 10px #666;
+      -o-box-shadow: 0 4px 10px #666;
+      box-shadow: 0 4px 10px #666;
+    }*/
+    .overlay-image {
+      position: relative;
+      width: 100%;
+      box-shadow: inset -8px -8px 12px #aaa;
+    }
+    .impair{
+      box-shadow: inset -8px -8px 12px #aaa;
+      border-left: solid;
+      border-color:#8e8680;
+    }
+    /* Image originale */
+    .overlay-image .image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0.8;
+    }
+    /* Texte original */
+    .overlay-image .text {
+      color: #fff;
+      font-size: 45px;
+      line-height: 1.5em;
+      text-shadow: 2px 2px 2px #000;
+      text-align: center;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
+    h1{
+      text-align: center;
+    }
+    p, h3{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .pageText{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hautPage{
+      margin-left: 10%;
+      margin-top: 5%;
+    }
+
+  </style>
+</head>
+
+<body>
+<div id="flipbook">
+  <div class=" overlay-image _bo ">
+    <img class=" image _bp " src="img/couverture.jpg" alt="Alt text" width="100%" height="100%"/>
+    <div class=" text _q ">Ma vie, mon histoire</div>
+  </div>
+ <div>
+ </div>
+ <div class="impair">
+   <h1>Sommaire</h1>
+   <br>
+   <h3>Partie personnelle</h3>
+   <p>- Présentation globale</p>
+   <p>- Traits de personnalité</p>
+   <p>- Centres d'interêts</p>
+   <p>- Attentes et ambitions</p>
+   <br>
+   <h3>Partie professionnelle</h3>
+   <p>- Parcours et expériences</p>
+   <p>- Compétences professionnelles</p>
+   <p>- CV</p>
+ </div>
+  <div>
+  </div>
+  <div class="impair pageText">
+    <h3>Présentation Globale</h3>
+  </div>
+  <div>
+    <img class="hautPage" src="img/fx.jpg" alt="Alt text" width="80%" height="50%"/>
+    <p>Je m'appelle François-Xavier Beckert. Je suis né le 17 février 1997 à Castres, dans le Tarn, d'une mère travaillant dans le domaine de l'assurance et d'un père
+    professeur de comptabilité. J'ai également 3 soeurs, une grande et deux petites. J'ai effectué toute ma scolarité dans le Tarn, d'abord à Castres puis à Albi ou j'ai passé un baccalauréat STI2D.
+    Actuellement, je suis étudiant en M1 Informatique Collaborative en Entreprise (ICE) à l'université Jean-Jaurès à Toulouse. J'effectue cette formation en alternance
+    au sein de l'entreprise Air France.</p>
+  </div>
+  <div class="impair pageText">
+    <h3>Traits de personnalité</h3>
+  </div>
+  <div>
+    <p style="margin-top:10%;">Si je devais me décrire, je commencerai par dire que je suis quelqu'un de gentil,
+    sociable, et altruiste. Cependant, je sais que ce n'est pas l'image que je renvoie aux gens qui ne me connaissent pas ou peu,
+    car j'ai l'air assez renfermé et même parfois froid au premier abord, mais cette impression est très majoritairement
+    dûe à une certaine timidité.<br>
+    De plus, je dirai que je suis quelqu'un qui sait s'adapter, que ce soit à une personne, à un travail,
+    un problème. Je pense que cette adaptabilité vient nottament du fait que je sois assez autonome, flexible, et que j'ai tendance à essayer d'anticiper
+    tout les cas de figure possibles avant de me lancer quelque part.<br>
+    Je suis également quelqu'un d'ambitieux, mais aussi réaliste. Je souhaite viser le plus haut possible, mais je connais mes limites. <br>
+      Au niveau des défauts, je dirai qu'il m'arrive parfois de manquer d'assurance, ce qui peut m'empêcher de m'investir et de prendre des initiatives dans certains cas,
+      ou tout simplement de m'exprimer dans d'autres. Mais je compte bien travailler sur ces points la pour les gommer de ma personnalité petit à petit.
+    </p>
+  </div>
+  <div class="impair pageText">
+    <h3>Centres d'interêts</h3>
+  </div>
+  <div>
+    <img class="hautPage" src="img/essai.png" alt="Alt text" width="80%" height="50%"/>
+    <p>Mon principal centre d'interêt, et même ma grande passion, c'est le sport. Le sport occupe une place immense dans ma vie. Que ce soit pour le pratiquer en club (j'ai joué pendant
+    7 ans au rugby à XIII, 1 an à XV, 1 an au football) ou à la salle de sport (environ 3 fois par semaine). Je passe également beaucoup de temps à regarder des matchs de football, de rugby, de tennis ou autre,
+    ainsi que des analyses, documentaires ou autres reportages relatifs à tout type de sport. Je reste également très attentif aux actualités dans le domaine du sport (les fils d'actualité de mes réseaux sociaux sont
+    remplis d'actualités relatives au sport), et quand j'étais au lycée, mon rêve était de devenir journaliste sportif.</p>
+  </div>
+  <div class="impair">
+    <img class="hautPage" src="img/series.png" alt="Alt text" width="80%" height="50%"/>
+    <p>Je suis également un grand fan de séries TV, notamment américaines. J'ai commencé à vraiment en regarder lorsque j'avais 15 ans, et que je rentrais chez mes parents le week-end après
+      avoir passé la semaine en internat. Ce que je préfère aux séries, vis à vis des films, c'est que l'on peut plus s'attacher aux personnages,
+    apprendre à mieux les connaitre et ainsi s'identifier à eux. Je n'ai pas de "style" de série préféré, mais si je devais en choisir une par rapport aux autres,
+     je choisirai "How I met your mother", car c'est une série que je trouve drôle, gentille, et car j'aime la façon dont elle est écrite.</p>
+  </div>
+  <div>
+    <img class="hautPage" src="img/fifa-20.jpg" alt="Alt text" width="80%" height="50%"/>
+    <p>Je ne peux pas parler de mes centres d'intérêt sans évoquer FIFA. Bien que je ne sois pas du tout un grand adepte des jeux vidéos
+    (en réalité je ne joue à aucun autre jeu que celui-ci), il m'arrive de passer des journées entières à jouer à FIFA, pour
+    essayer d'améliorer mon équipe et d'ainsi être le plus compétitif possible. Cependant, ce hobbie s'avère parfois assez néfaste,
+     car il m'arrive de m'emporter lorsque je perd plusieurs matchs consécutifs, ou que je n'arrive pas à réaliser mes objectifs. Le mode de jeu que je préfère est
+     le mode en ligne (Ultimate Team plus précisémment), car je préfère de loin me confronter à de vrais joueurs qu'à un ordinateur (j'ai un gros esprit de compétition et j'adore gagner).</p>
+  </div>
+  <div class="impair pageText">
+    <h3>Attentes et ambitions</h3>
+  </div>
+  <div>
+    <img class="hautPage" src="img/famille.jpg" alt="Alt text" width="80%" height="50%"/>
+    <p>Mon but dans la vie est très clair. Je veux réussir à rendre ma future famille la plus heureuse possible, à combler le moindre de leur désir, et à m'assurer qu'ils
+    ne manqueront jamais de rien. Et je sais que pour arriver à cela, avoir un bon emploi, dans une bonne entreprise, avec un bon salaire est primordial.<br>
+    Plus personnellement, je sais que le travail de développeur ne me conviendra pas toute ma vie, et que je veux pouvoir évoluer et passer à un emploi
+    baignant moins dans le technique. De ce fait, le rôle de chef de projet m'attire beaucoup, mais je sais que je ne possède pas encore les qualités nécessaires
+    pour bien réaliser ce métier. Mais je compte bien évidemment faire tout mon possible pour les acquérir le plus rapidement possible.</p>
+  </div>
+  <div class="impair pageText">
+    <h3>Parcours et expériences</h3>
+  </div>
+  <div>
+    <h3 style="margin-top:10%;">Entreprise Cestrière - 07/13</h3>
+    <p>Cet emploi, qui fût mon premier, était un emploi saisonnier agricole de plusieurs semaines réalisé à l’été 2013. Mon travail était de passer à travers les champs afin de castrer les épis de maïs.
+      Bien que répétitif, ce travail a eu le mérite de m’apporter une première approche du monde professionnel, et de la rigueur d’un emploi.
+    </p>
+    <h3 style="margin-top:10%;">Macdonald's Labège - 11/15 à 06/16</h3>
+    <p>J’ai travaillé au macdonald’s de Labège durant un peu moins d’une année .
+      En effet, devant faire un BTS en alternance cette année-la mais n’ayant pu trouver d’entreprise, j’ai choisi de chercher un emploi de manière à ne pas rester inactif toute une année, et aussi pour pouvoir subvenir à mes besoins.
+      J’ai donc été embauché par l’entreprise Macdonald’s, géant de la restauration rapide, en tant qu’employé polyvalent. Mon travail consistait à prendre les commandes, les monter, accueillir les clients, et aussi de m’occuper de la propreté du restaurant.<br>
+      Ce travail m’a permit d’approfondir ma découverte du milieu professionnel, car il m’a mit face à une véritable hiérarchie, ce qui n’était pas forcément le cas dans mon précédent emploi. J’ai également du faire face à des clients pas tout le temps aimables, et donc apprendre à
+    </p>
+  </div>
+  <div class="impair">
+    <p style="margin-top:10%;">
+      garder mon calme dans des situations qui pourraient parfois paraître compliquées.
+      <br>A défaut de m’avoir aidé à trouver ma vocation, ce travail m’a permit de savoir ce que je ne voulais pas faire plus tard, travailler dans la rapidité, et au contact du grand public. Il m’a également boosté dans mon envie de reprendre mes études, et de les réussir afin de ne plus avoir à travailler dans des emplois comme celui-ci à l’avenir.
+    </p>
+    <h3 style="margin-top:10%;">Mairie de Burlats - 06/17</h3>
+    <p>Comme le fût le premier, cet emploi était un emploi saisonnier d’une durée d’un mois. Mon travail ici consistait à gérer la propreté et l’entretien des espaces verts du villages, et même la propreté du village lui-même.<br>
+      Je travaillais la plupart du temps en binôme avec un « tuteur » qui s’occupait de me donner différentes tâches à effectuer.<br>
+      Bien que difficile et fatigant physiquement, je garde un bon souvenir de ce travail car l’ambiance était agréable, je n’ai pas éprouvé de difficulté particulière, et j’ai également pu remarquer que le travail en petits groupes me convenait plus et me faisait me sentir plus à l’aise.
+    </p>
+  </div>
+  <div>
+    <h3 style="margin-top:10%;">Lidl - 07/17 à 09/18</h3>
+    <p>J'ai également été employé comme caissier en libre service dans l'entreprise Lidl. Mon rôle était variable : parfois je m’occupais de la caisse, parfois de la mise en rayon, et parfois de l’accueil des clients.<br>
+      Le magasin ou je travaillais était un des plus petits du secteur, avec seulement une dizaine d’employés. Mais j’ai été amené plusieurs fois à effectuer des dépannages dans de plus grands magasins.<br>
+      J’écoutais principalement les directives données par mes supérieurs, tout en apportant ma touche personnelle pour réaliser le travail demandé de la meilleure des façons.<br>
+      Etant également étudiant à la même période ou j’effectuais ce travail, concilier les 2 fut compliqué, mais j’ai tout de même réussi à m’adapter à ce rythme avec le temps en m’accrochant et en gérant mieux mon emploi du temps.<br>
+      Le savoir vivre était très important, pour le contact avec les clients mais également pour les rapports avec mes autres collègues.<br>
+      Globalement, je retiens cet emploi comme une expérience positive, car il m’a apprit à travailler en équipe, m’a apporté (selon moi)
+      ma première vrai expérience dans le monde du travail, et m’a permit de découvrir en moi une capacité d’adaptation que je ne me connaissais pas auparavant.
+    </p>
+  </div>
+  <div class="impair">
+    <h3 style="margin-top:10%;">Cyblex Technologies - 04/19 à 06/19</h3>
+    <p>Cet emploi, en tant que stagiaire, représente ma première expérience professionnelle dans le monde de l'informatique. J'ai ainsi pu intégrer une très jeune entreprise (créé 2 mois
+      seulement avant mon arrivée) et donc une équipe de travail assez restreinte (5 au début, 8 à la fin).<br>
+      Pour ce stage, j'étais chargé, en collaboration avec un autre stagiaire, de réaliser un module Drupal visant a effectuer des calculs en suivant un certain algorithme (nested tree).<br>
+      Cette expérience m'a permit de consolider le choix que j'avais fais, de me diriger vers l'informatique, et de m'apporter plus de certitudes concernant mon futur. J'ai en effet grandement
+      apprécié la façon de travailler et de donner les directives qu'il y avait dans ce milieu là plutôt que dans ceux ou j'avais travaillé précedemment.
+    </p>
+  </div>
+  <div>
+    <h3 style="margin-top:10%;">Air France - 09/19 à aujourd'hui</h3>
+    <p>Je suis actuellement employé en tant que développeur web alternant dans l'entreprise Air France. Cet emploi représente pour moi ma plus grande réussite actuellement.
+      En effet, intégrer une entreprise comme Air France a été une grande fierté.<br>
+      Mon travail ici comporte quelques ressemblances avec celui réalisé durant mon stage. En effet, j'effectue toujours du développement, et je travaille toujours au sein
+      d'une équipe de 7-8 personnes. Mais j'ai cette fois plus de responsabilités. Bien que j'ai eu la chance d'être très bien encadré et d'avoir toujours su trouver l'aide
+      dont j'avais besoin, plus d'attentes sont placées en moi actuellement, et c'est normal, que lorsque j'étais stagiaire.<br>
+      Cet emploi me permet de beaucoup améliorer mes compétences techniques, relationnelles, organisationnelles, mais aussi de m'épanouir pleinement dans mon travail, pour la première fois.<br>
+      De plus, travailler dans une grande entreprise m'a permit d'un peu plus savoir ou je souhaite aller : j'aimerai avoir la possibilité d'évoluer dans un grand groupe,
+      au sein d'une grande équipe, et de travailler sur des projets importants.
+    </p>
+  </div>
+  <div class="impair pageText" style="flex-direction: column;">
+    <h3>CV</h3>
+    <a href="img/CV0619.pdf" target="_blank">
+      <img src="img/pdf.png" alt="Alt text" style="display: block; margin-top: 15%;">
+    </a>
+  </div>
+</div>
+<script type="text/javascript">
+  $('#flipbook').turn({
+    width:800,
+    height:600,
+    page:1,
+    autoCenter: true,
+    duration: 2000
+  })
+</script>
+</body>
+
+</html>
