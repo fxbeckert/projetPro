@@ -18,13 +18,6 @@
     #flipbook .page{
       background: white;
     }
-/*    #flipbook .shadow, #flipbook.shadow{
-      -webkit-box-shadow: 0 4px 10px #666;
-      -moz-box-shadow: 0 4px 10px #666;
-      -ms-box-shadow: 0 4px 10px #666;
-      -o-box-shadow: 0 4px 10px #666;
-      box-shadow: 0 4px 10px #666;
-    }*/
     .overlay-image {
       position: relative;
       width: 100%;
@@ -71,6 +64,19 @@
       margin-left: 10%;
       margin-top: 5%;
     }
+    .derniere{
+      opacity: 0.9;
+      width: 100%;
+      height: 100%;
+      background-image: url("img/derniere.jpg");
+      background-size: cover;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .cv:hover{
+      opacity: 0.6;
+    }
 
   </style>
 </head>
@@ -79,7 +85,7 @@
 <div id="flipbook">
   <div class=" overlay-image _bo ">
     <img class=" image _bp " src="img/couverture.jpg" alt="Alt text" width="100%" height="100%"/>
-    <div class=" text _q ">Ma vie, mon histoire</div>
+    <div class=" text _q ">BECKERT<br>François-Xavier</div>
   </div>
  <div>
  </div>
@@ -89,7 +95,7 @@
    <h3>Partie personnelle</h3>
    <p>- Présentation globale</p>
    <p>- Traits de personnalité</p>
-   <p>- Centres d'interêts</p>
+   <p>- Centres d'interêt</p>
    <p>- Attentes et ambitions</p>
    <br>
    <h3>Partie professionnelle</h3>
@@ -118,37 +124,40 @@
     car j'ai l'air assez renfermé et même parfois froid au premier abord, mais cette impression est très majoritairement
     dûe à une certaine timidité.<br>
     De plus, je dirai que je suis quelqu'un qui sait s'adapter, que ce soit à une personne, à un travail,
-    un problème. Je pense que cette adaptabilité vient nottament du fait que je sois assez autonome, flexible, et que j'ai tendance à essayer d'anticiper
-    tout les cas de figure possibles avant de me lancer quelque part.<br>
+    un problème. Je pense que cette adaptabilité vient notamment du fait que je sois assez autonome, flexible, et que j'ai tendance à essayer d'anticiper
+    tous les cas de figure possibles avant de me lancer quelque part.<br>
     Je suis également quelqu'un d'ambitieux, mais aussi réaliste. Je souhaite viser le plus haut possible, mais je connais mes limites. <br>
-      Au niveau des défauts, je dirai qu'il m'arrive parfois de manquer d'assurance, ce qui peut m'empêcher de m'investir et de prendre des initiatives dans certains cas,
+      Au niveau des défauts, je dirais qu'il m'arrive parfois de manquer d'assurance, ce qui peut m'empêcher de m'investir et de prendre des initiatives dans certains cas,
       ou tout simplement de m'exprimer dans d'autres. Mais je compte bien travailler sur ces points la pour les gommer de ma personnalité petit à petit.
     </p>
   </div>
   <div class="impair pageText">
     <h3>Centres d'interêts</h3>
   </div>
-  <div>
-    <img class="hautPage" src="img/essai.png" alt="Alt text" width="80%" height="50%"/>
+  <div style="display: flex; flex-wrap: wrap">
+    <img class="hautPage" src="img/essai.png" alt="Alt text" width="40%" height="35%"/>
+    <img class="hautPage" src="img/cr7.gif" alt="Alt text" width="35%" height="35%"/>
     <p>Mon principal centre d'interêt, et même ma grande passion, c'est le sport. Le sport occupe une place immense dans ma vie. Que ce soit pour le pratiquer en club (j'ai joué pendant
-    7 ans au rugby à XIII, 1 an à XV, 1 an au football) ou à la salle de sport (environ 3 fois par semaine). Je passe également beaucoup de temps à regarder des matchs de football, de rugby, de tennis ou autre,
-    ainsi que des analyses, documentaires ou autres reportages relatifs à tout type de sport. Je reste également très attentif aux actualités dans le domaine du sport (les fils d'actualité de mes réseaux sociaux sont
+    7 ans au rugby à XIII, 1 an à XV, 1 an au football) ou à la salle de sport (environ 3 fois par semaine). Je passe également beaucoup de temps à regarder des matchs de football, de rugby, de tennis ou autres,
+    ainsi que des analyses, documentaires ou autres reportages relatifs à tous type de sport. Je reste également très attentif aux actualités dans le domaine du sport (les fils d'actualité de mes réseaux sociaux sont
     remplis d'actualités relatives au sport), et quand j'étais au lycée, mon rêve était de devenir journaliste sportif.</p>
   </div>
   <div class="impair">
-    <img class="hautPage" src="img/series.png" alt="Alt text" width="80%" height="50%"/>
+    <img class="hautPage" src="img/himym.gif" alt="Alt text" width="80%" height="50%"/>
     <p>Je suis également un grand fan de séries TV, notamment américaines. J'ai commencé à vraiment en regarder lorsque j'avais 15 ans, et que je rentrais chez mes parents le week-end après
       avoir passé la semaine en internat. Ce que je préfère aux séries, vis à vis des films, c'est que l'on peut plus s'attacher aux personnages,
-    apprendre à mieux les connaitre et ainsi s'identifier à eux. Je n'ai pas de "style" de série préféré, mais si je devais en choisir une par rapport aux autres,
-     je choisirai "How I met your mother", car c'est une série que je trouve drôle, gentille, et car j'aime la façon dont elle est écrite.</p>
+    apprendre à mieux les connaitre et ainsi s'identifier à eux. Je n'ai pas rééllement de série préférée, mais si je devais en choisir une par rapport aux autres,
+     je choisirais "How I met your mother", car c'est une série que je trouve drôle, gentille, et car j'aime la façon dont elle est écrite.</p>
   </div>
-  <div>
-    <img class="hautPage" src="img/fifa-20.jpg" alt="Alt text" width="80%" height="50%"/>
+  <div style="display: flex;flex-wrap: wrap;justify-content: center;">
+    <img style="margin-top: 5%;" src="img/fifa-20.jpg" alt="Alt text" width="80%" height="20%"/>
     <p>Je ne peux pas parler de mes centres d'intérêt sans évoquer FIFA. Bien que je ne sois pas du tout un grand adepte des jeux vidéos
     (en réalité je ne joue à aucun autre jeu que celui-ci), il m'arrive de passer des journées entières à jouer à FIFA, pour
-    essayer d'améliorer mon équipe et d'ainsi être le plus compétitif possible. Cependant, ce hobbie s'avère parfois assez néfaste,
-     car il m'arrive de m'emporter lorsque je perd plusieurs matchs consécutifs, ou que je n'arrive pas à réaliser mes objectifs. Le mode de jeu que je préfère est
-     le mode en ligne (Ultimate Team plus précisémment), car je préfère de loin me confronter à de vrais joueurs qu'à un ordinateur (j'ai un gros esprit de compétition et j'adore gagner).</p>
+    essayer d'améliorer mon équipe et d'ainsi être le plus compétitif possible. Le mode de jeu que je préfère est
+      le mode en ligne (Ultimate Team plus précisémment), car je préfère de loin me confronter à de vrais joueurs qu'à un ordinateur (j'ai un gros esprit de compétition et j'adore gagner).
+      Cependant, ce hobbie s'avère parfois assez néfaste,
+     car il m'arrive de m'emporter lorsque je perds plusieurs matchs consécutifs, ou que je n'arrive pas à réaliser mes objectifs.</p>
+    <img src="img/angry.gif" alt="Alt text" width="50%" height="20%"/>
   </div>
   <div class="impair pageText">
     <h3>Attentes et ambitions</h3>
@@ -202,7 +211,7 @@
     <h3 style="margin-top:10%;">Cyblex Technologies - 04/19 à 06/19</h3>
     <p>Cet emploi, en tant que stagiaire, représente ma première expérience professionnelle dans le monde de l'informatique. J'ai ainsi pu intégrer une très jeune entreprise (créé 2 mois
       seulement avant mon arrivée) et donc une équipe de travail assez restreinte (5 au début, 8 à la fin).<br>
-      Pour ce stage, j'étais chargé, en collaboration avec un autre stagiaire, de réaliser un module Drupal visant a effectuer des calculs en suivant un certain algorithme (nested tree).<br>
+      Pour ce stage, j'étais chargé, en collaboration avec un autre stagiaire, de réaliser un module Drupal visant à effectuer des calculs en suivant un certain algorithme (nested tree).<br>
       Cette expérience m'a permit de consolider le choix que j'avais fais, de me diriger vers l'informatique, et de m'apporter plus de certitudes concernant mon futur. J'ai en effet grandement
       apprécié la façon de travailler et de donner les directives qu'il y avait dans ce milieu là plutôt que dans ceux ou j'avais travaillé précedemment.
     </p>
@@ -215,15 +224,33 @@
       d'une équipe de 7-8 personnes. Mais j'ai cette fois plus de responsabilités. Bien que j'ai eu la chance d'être très bien encadré et d'avoir toujours su trouver l'aide
       dont j'avais besoin, plus d'attentes sont placées en moi actuellement, et c'est normal, que lorsque j'étais stagiaire.<br>
       Cet emploi me permet de beaucoup améliorer mes compétences techniques, relationnelles, organisationnelles, mais aussi de m'épanouir pleinement dans mon travail, pour la première fois.<br>
-      De plus, travailler dans une grande entreprise m'a permit d'un peu plus savoir ou je souhaite aller : j'aimerai avoir la possibilité d'évoluer dans un grand groupe,
+      De plus, travailler dans une grande entreprise m'a permit d'un peu plus savoir ou je souhaite aller : j'aimerais avoir la possibilité d'évoluer dans un grand groupe,
       au sein d'une grande équipe, et de travailler sur des projets importants.
+    </p>
+  </div>
+  <div class="impair pageText">
+    <h3>Compétences professionnelles</h3>
+  </div>
+  <div>
+    <p style="margin-top:10%;">Lors de ma formation en STI2D, j’ai pu commencer à étudier le domaine de l’ingénierie, de la mécanique, et surtout de l’informatique. Tout ces travaux m’ont permis de développer une logique, d’apprendre à comprendre un problème, d’étudier sa provenance pour pouvoir trouver plus facilement une ou plusieurs solution(s) pour le résoudre.<br>
+      Ces compétences ont été encore plus approfondies lors de ma licence MIASHS et de mon Master, me confrontant à des problèmes plus complexes que ceux rencontrés auparavant, et me poussant donc à m’adapter à chaque situation, et à encore plus améliorer mon esprit de réflexion. J’ai également pu découvrir plus amplement les langages informatiques, et donc pu apprendre leur sémantique pour pouvoir réaliser des scripts pour la plupart d’entre eux.<br>
+      Outre les formations, j’ai également appris ces dernières années à me responsabiliser, à être plus déterminé pour obtenir ce que je souhaitais, et à redoubler d’efforts pour réussir ce que je souhaitais entreprendre. Je suis devenu plus sérieux, rigoureux, et j’ai également pu prendre plus confiance en moi qu’auparavant, ce qui se révèle être très important lors de la réalisation de certains projets, notamment au niveau de la gestion du stress, du temps, et du travail.
     </p>
   </div>
   <div class="impair pageText" style="flex-direction: column;">
     <h3>CV</h3>
     <a href="img/CV0619.pdf" target="_blank">
-      <img src="img/pdf.png" alt="Alt text" style="display: block; margin-top: 15%;">
+      <img class="cv" src="img/pdf.png" alt="Alt text" style="display: block; margin-top: 15%;">
     </a>
+  </div>
+  <div>
+    <div class="derniere">
+      <h1 style="margin-top: 0; text-align: center">Fin!</h1>
+      <p style="font-size:20px; font-weight: bold ">Et voilà, ma présentation est finie!<br>
+      J'espère qu'elle vous aura plu, et que vous y avez trouvé les informations que vous recherchiez.<br>
+      Et surtout, merci d'avoir pris le temps de la regarder et de la lire!</p>
+      <img src="img/smiley.png" alt="alt" width="25%" height="25%">
+    </div>
   </div>
 </div>
 <script type="text/javascript">
